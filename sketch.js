@@ -9,7 +9,7 @@ let Trackers = [];
 let bkgImg;
 
 // how long each move is
-let cycleLength = 1200;
+let cycleLength = 200;
 let cyclePos =0;//holds the position
 let changePos = 0;//holds the number of changes
 // number of trackers to be made
@@ -17,7 +17,7 @@ let numTrackers = 4;
 
 let puased = false;
 let puasedTimer = 0;
-let pausedLen = 300;
+let pausedLen = 30;
 
 let titleImg, QrImg; 
 
