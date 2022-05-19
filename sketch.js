@@ -17,7 +17,7 @@ let numTrackers = 4;
 
 let puased = false;
 let puasedTimer = 0;
-let pausedLen = 30;
+let pausedLen = 40;
 
 let titleImg, QrImg; 
 
@@ -30,7 +30,7 @@ function setup() {
   QrImg = loadImage("./qr-code.png");
 
 
-  titleImg = loadImage("./normals.png");
+  titleImg = loadImage("./title.png");
 
   // load images from files to images list
   for(let i=0; i<imgFiles.length; i++){
